@@ -41,6 +41,7 @@ const LearningHeader = ({
 
   return (
     <header className="learning-header">
+      <link rel="stylesheet" href="//learn-v2.jcecc.hk/static/css/jcecc.css" type="text/css" media="all"/>
       <a className="sr-only sr-only-focusable" href="#main-content">{intl.formatMessage(messages.skipNavLink)}</a>
       <div className="container-xl py-2 d-flex align-items-center">
         {headerLogo}

@@ -10,7 +10,7 @@ import genericMessages from '../generic/messages';
 const AnonymousUserMenu = ({ intl }) => (
   <div>
     <Button
-      className="mr-3"
+      className="mr-3 d-none"
       variant="outline-primary"
       href={`${getConfig().LMS_BASE_URL}/register?next=${encodeURIComponent(global.location.href)}`}
     >
