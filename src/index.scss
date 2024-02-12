@@ -120,17 +120,3 @@ $white: #fff;
   }
 }
 
-#root footer,
-#courseTabsNavigation a[href*="/discussions/"],
-#courseTabsNavigation a[href*="/dates"],
-nav.wrapper-course-material li.tab:has(a[href*="/discussions/"]),
-nav.wrapper-course-material li.tab:has(a[href*="/dates"]),
-footer a:has(img[src*="logo.png"]),
-.global-header:has(a.sign-in-btn),
-.global-header .header-logo a,
-.dropdown-user-menu > div:nth-child(-n + 3),
-header.primary h1.branding,
-header.learning-header > div a:not(.logo) {
-    display: none;
-}
-
